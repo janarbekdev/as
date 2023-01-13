@@ -1,0 +1,458 @@
+@import "mixin";
+@import "resept";
+@import "vareoble";
+  #header{
+    padding: 30px 0;
+    .header{
+      @include display();
+      h1{
+        font-family: 'Motter Corpus Std',sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 31px;
+        color: #0B4141;
+        @include hover();
+      }
+      &--one{
+         a{
+           @include hover();
+           margin: 020px;
+           font-family: 'Nunito Sans',sans-serif;
+           font-weight: 600;
+           font-size: 16px;
+           line-height: 22px;
+           color: #0B4141;
+         }
+        button{
+              @include btn();
+          width: 163px;
+          height: 46px;
+          background: #0B4141;
+          border-radius: 124px;
+        }
+      }
+    }
+  }
+    #hero{
+      padding: 80px 0;
+    .hero{
+      &--play{
+        position: relative;
+           display: flex;
+        align-items: center;
+           h1{
+             @include hover();
+             font-weight: 400;
+             font-size: 120px;
+             line-height: 128px;
+             text-align: center;
+             color: #FFCCBC;
+
+
+           }
+         h2{
+           font-weight: 400;
+           font-size: 120px;
+           line-height: 128px;
+           display: flex;
+           align-items: flex-end;
+           text-align: center;
+           background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           text-fill-color : transparent;
+         }
+        img{
+          position: absolute;
+          z-index: 99;
+          top: 1px;
+
+        }
+
+      }
+      &-- dic{
+        position:relative;
+        &__div4{
+          position: absolute;
+
+          width: 51px;
+          height: 51px;
+          left: 26px;
+          top: 230px;
+          background: #FFCCBC;
+          opacity: 0.54;
+          transform: rotate(-66.93deg);
+        }
+        &__div3{
+          width: 51px;
+          height: 51px;
+          left: 1335px;
+          top: 530px;
+          background: #FFCCBC;
+          opacity: 0.63;
+          transform: rotate(86.7deg);
+        }
+        &__div2{
+          position: absolute;
+          width: 1224px;
+          left: 108px;
+          top: 356px;
+          height: 688px;
+          background: url(.png);
+        }
+      }
+    }
+    }
+    #her{
+      background:darkgoldenrod;
+      opacity: 0.2;
+      padding: 200px 0;
+      .her{
+        &--pay{
+           @include senter();
+          h1{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 96px;
+            text-align: center;
+            color: #FFFFFF;
+
+          }
+          p{
+            padding: 30px 0;
+            width: 772px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #FFFFFF;
+
+          }
+        }
+        &--tay{
+          color:d;
+          position: relative;
+          &__at1{
+            position: absolute;
+            left: 241px;
+            top: 31px;
+            background: url(.png);
+            opacity: .2;
+            transform: rotate(79.38deg);
+          }
+          &__at2{
+          position: absolute;
+            left: 516px;
+            top: 31px;
+            background: $d;
+            transform: rotate(24.53deg);
+          }
+          &__at3{
+            position: absolute;
+            left: 1430px;
+            top: 770px;
+            transform: rotate(-154.75deg);
+          }
+          &__at4{
+            position: absolute;
+            left: 500px;
+            top: 120px;
+            z-index: 99;
+            background: url(.png);
+            transform: rotate(-15deg);
+          }
+        }
+      }
+    }
+      #he{
+        padding: 100px 0;
+        background: $gr;
+        .he{
+          margin-left: 50px;
+     @include display();
+          width: 77%;
+          &--me{
+            h1{
+              font-style: normal;
+              font-weight: 900;
+              font-size: 68px;
+              line-height: 72px;
+              color: #FFCCBC;
+              padding: 19px 0;
+            }
+            p{
+              width: 475px;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 32px;
+              color: #FFCCBC;
+              padding: 32px 0;
+            }
+            button{
+              @include btn();
+              width: 170px;
+              height: 50px;
+
+              background: none;
+              border-radius: 124px;
+
+            }
+          }
+        }
+      }
+      #boy{
+        padding: 100px 0;
+        .boy{
+            @include display();
+          &--bos{
+            border-radius: 66px;
+            width: 1052px;
+            height: 754px;
+            background: $gr;
+            img{
+              @include senter();
+            }
+          }
+          &--bos2{
+            h1{
+
+              font-weight: 900;
+              font-size: 68px;
+              line-height: 72px;
+
+              color: #FFCCBC;
+            }
+            p{
+              padding: 30px 0;
+              width: 464px;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 32px;
+              color: $gr;
+            }
+            a{
+           span{
+             padding: 010px;
+             font-weight: 600;
+             font-size: 16px;
+             line-height: 22px;
+             color: #0B4141;
+           }
+            }
+
+          }
+        }
+      }
+      #san{
+        padding: 80px 0;
+        width: 80%;
+
+        .boy{
+
+            @include display();
+          &--bos{
+            border-radius: 66px;
+            width: 1052px;
+            height: 754px;
+            background: $gr;
+            img{
+              @include senter();
+            }
+          }
+          &--bos2{
+            h1{
+
+              font-weight: 900;
+              font-size: 68px;
+              line-height: 72px;
+
+              color: #FFCCBC;
+            }
+            p{
+              padding: 30px 0;
+              width: 464px;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 32px;
+              color: $gr;
+            }
+            a{
+           span{
+             padding: 010px;
+             font-weight: 600;
+             font-size: 16px;
+             line-height: 22px;
+             color: #0B4141;
+           }
+            }
+
+          }
+        }
+      }
+
+       #may{
+         padding: 70px;
+         .may{
+           margin-top: 40px;
+           h1{
+             font-weight: 400;
+             font-size: 80px;
+             line-height: 96px;
+             text-align: center;
+             color: #FFCCBC;
+           }
+           p{
+             padding: 30px 0;
+             width: 890px;
+             font-weight: 400;
+             font-size: 24px;
+             line-height: 32px;
+             text-align: center;
+             color: #0B4141;
+           }
+           &--log{
+             margin-top: 40px;
+              @include display();
+             padding: 020px;
+           }
+         }
+       }
+
+       #fly{
+         padding: 100px 0;
+         background: rgba(184, 161, 11, 0.13);
+         h1{
+           font-style: normal;
+           font-weight: 900;
+           font-size: 68px;
+           line-height: 72px;
+           text-align: center;
+           color: #FFFFFF;
+
+         }
+         .fly{
+           @include display();
+           justify-content: space-around;
+           h1{
+             font-weight: 900;
+             font-size: 68px;
+             line-height: 72px;
+             text-align: center;
+             color: #FFFFFF;
+
+           }
+           &--fols{
+
+             &__fols1{
+               &--fols2{
+
+                 h1{
+                   margin-left: 16px;
+                   width: 264px;
+                   font-weight: 400;
+                   font-size: 13px;
+                   line-height: 18px;
+                   color: #0B4141;
+
+
+                 }
+                 &__sasa{
+                   display: flex;
+                   margin-top: 40px;
+                    h3{
+                      margin-left: 20px;
+                      padding: 010px;
+                      font-weight: 700;
+                      font-size: 16px;
+                      line-height: 19px;
+                      color: #0B4141;
+                      span{
+                        color: skyblue;
+                      }
+                    }
+                 }
+               }
+               &--con{
+                 width: 304px;
+                 height: 360px;
+                 background: rgba(255, 255, 255, 0.8);
+                 backdrop-filter: blur(6px);
+                 p{
+                   padding-top: 10px;
+                   margin-left: 20px;
+                   width: 264px;
+                   font-style: normal;
+                   font-weight: 400;
+                   font-size: 13px;
+                   line-height: 18px;
+
+                   /* Primary */
+
+                   color: #0B4141;
+
+                 }
+                 &__for{
+                   display: flex;
+                   h3{
+                     font-weight: 700;
+                     font-size: 16px;
+                     line-height: 19px;
+                     color: #0B4141;
+                     span{
+                       color: #FFFFFF;
+                     }
+                   }
+                 }
+
+               }
+             }
+           }
+         }
+       }
+#we{
+  padding: 100px 0;
+  .boy{
+    @include display();
+    &--bos{
+      border-radius: 66px;
+      width: 1052px;
+      height: 754px;
+      background: $gr;
+      img{
+        @include senter();
+      }
+    }
+    &--bos2{
+      h1{
+
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+
+        color: #FFCCBC;
+      }
+      p{
+        padding: 30px 0;
+        width: 464px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: $gr;
+      }
+     button{
+          @include btn();
+       width: 163px;
+       height: 46px;
+       background: none;
+       border-radius: 124px;
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 22px;
+       color: #FFCCBC;
+
+      }
+
+    }
+  }
+}

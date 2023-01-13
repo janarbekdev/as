@@ -1,0 +1,24 @@
+@mixin display{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin btn{
+  transition: 2s;
+  &:hover{
+    background: blueviolet;
+    color: white;
+    transform: scale(1.1);
+  }
+}
+@mixin hover{
+  transition: 2s;
+    &:hover{
+      color: green;
+      transform: scale(1.1);
+    }
+}
+@mixin senter{
+  display: flex;align-items: center;
+  justify-content: center;
+}
